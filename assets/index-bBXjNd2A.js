@@ -48,7 +48,7 @@ Error generating stack: `+e.message+`
         `,msgBody:`
             #workskin .msg-body \{
                 box-sizing: border-box;
-                min-width: fit-content;
+                min-width: ${w.containerWidth};
                 background-color: ${w.chatBackgroundColor};
                 display: table;
                 padding-left: .5em;
