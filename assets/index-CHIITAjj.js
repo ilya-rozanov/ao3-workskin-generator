@@ -65,7 +65,7 @@ Error generating stack: `+e.message+`
                 border-radius: 1em;
                 padding: 0.5em 1em;
                 background: ${w.msgReceivedColor};
-                max-width: min(200px,75%);
+                max-width: 75%;
                 clear: both;
                 position: relative;
                 height: fit-content;
@@ -88,7 +88,7 @@ Error generating stack: `+e.message+`
                 border-radius: 1em;
                 padding: 0.5em 1em;
                 background: ${w.msgSentColor};
-                max-width: min(200px,75%);
+                max-width: 75%;
                 clear: both;
                 position: relative;
             \}
