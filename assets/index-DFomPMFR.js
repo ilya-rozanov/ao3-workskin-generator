@@ -10,6 +10,7 @@ Error generating stack: `+e.message+`
 `),se=()=>({messageContainer:`#workskin .screen-container \{
                 max-width: ${w.containerWidth};
                 font-family: ${w.fontFamily.join(`, `)};
+                font-size: 0.8rem;
                 display: table;
                 margin: auto;
             \}
