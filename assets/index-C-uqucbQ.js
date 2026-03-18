@@ -50,7 +50,7 @@ Error generating stack: `+e.message+`
             margin: auto;
             margin-bottom: 1em;
             border-radius: 100%;
-            background-image: url(${y.imgUrl});
+            background-image: ${y.imgUrl?`url(${y.imgUrl})`:`none`};
             background-repeat: no-repeat;
             background-size: 102%;
         \}
