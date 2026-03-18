@@ -22,6 +22,7 @@ Error generating stack: `+e.message+`
             display: table;
             box-sizing: border-box;
             min-width: ${w.containerWidth};
+            width:100%;
             background-color: ${w.headerBackgroundColor};
             border-bottom: 1px solid #b2b2b2;
             color: ${w.headerTextColor};
@@ -47,7 +48,7 @@ Error generating stack: `+e.message+`
         `,msgBody:`
             #workskin .msg-body \{
                 box-sizing: border-box;
-                min-width: ${w.containerWidth};
+                min-width: fit-content;
                 background-color: ${w.chatBackgroundColor};
                 display: table;
                 padding-left: .5em;
@@ -64,7 +65,7 @@ Error generating stack: `+e.message+`
                 border-radius: 1em;
                 padding: 0.5em 1em;
                 background: ${w.msgReceivedColor};
-                max-width: 75%;
+                max-width: min(200px,75%);
                 clear: both;
                 position: relative;
                 height: fit-content;
@@ -87,7 +88,7 @@ Error generating stack: `+e.message+`
                 border-radius: 1em;
                 padding: 0.5em 1em;
                 background: ${w.msgSentColor};
-                max-width: 75%;
+                max-width: min(200px,75%);
                 clear: both;
                 position: relative;
             \}
