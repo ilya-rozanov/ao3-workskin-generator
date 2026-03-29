@@ -237,7 +237,7 @@ Error generating stack: `+e.message+`
             #workskin .ios-match-bg {
                 display: table; 
                 background-color: ${E[`scrollbar-background-color`]};
-                height: 1em;
+                height: 0.5em;
                 min-width: ${E[`container-width`]};
             }
             #workskin .ios-msg-foot {
