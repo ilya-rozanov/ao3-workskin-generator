@@ -74,11 +74,11 @@ Error generating stack: `+e.message+`
             \}
             #workskin .contact-img \{
                 clear: both;
-                width: 4.5rem;
-                height: 4.5rem; 
+                width: 5em;
+                height: 5em; 
                 overflow: hidden;
                 margin: auto;
-                margin-bottom: 1em;
+                margin-bottom: 0.3em;
                 border-radius: 100%;
                 background-image: ${x.imgUrl?`url(${x.imgUrl})`:`none`};
                 background-repeat: no-repeat;
