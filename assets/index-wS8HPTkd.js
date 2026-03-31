@@ -80,7 +80,7 @@ Error generating stack: `+e.message+`
                 margin: auto;
                 margin-bottom: 0.3em;
                 border-radius: 100%;
-                background-image: ${x.imgUrl?`url(${x.imgUrl})`:`none`};
+                background-image: ${x.imgUrl?`url("${x.imgUrl}")`:`none`};
                 background-repeat: no-repeat;
                 background-size: 102%;
         \}`,msgBody:`
