@@ -262,14 +262,14 @@ Error generating stack: `+e.message+`
             #workskin .ios-msg-foot .circle \{
                 display: flex; align-items: center;
                 margin-left: 15px;
-                width: 2.2rem; height: 2.2rem; float: left;
+                width: 22px; height: 22px; float: left;
                 border-radius: 50%;
                 flex: 0 0 auto;
                 background-color: #bebebe;
                 display: flex; align-items: center; justify-content: center;
                 color: #eeeeee;
                 text-align: center;
-                font-size: 2rem;
+                font-size: 2em;
             \} 
             #workskin .ios-msg-foot .ios-typing-bar \{
                 display: flex;
@@ -282,7 +282,7 @@ Error generating stack: `+e.message+`
                 padding-left: 0.5em; 
                 border-radius: 20px;
                 width: ${Math.floor(parseFloat(D[`container-width`].replaceAll(`px`,``))*.78)}px;
-                height: 2.2rem;
+                height: 22px;
             \}
             #workskin .ios-msg-foot .ios-typing-bar span \{
                 align-self: center;
