@@ -88,13 +88,12 @@ Error generating stack: `+e.message+`
                 box-sizing: border-box;
                 min-width: ${D[`container-width`]};
                 background-color: ${D[`chat-background-color`]};
-                display: block;
+                display: ${D.isShowScrollbar?`block`:`table`};
                 padding-left: .5em;
                 padding-right: .5em;
                 padding-top: 1em;
                 padding-bottom: 2em;
                 width: 100%;
-                min-height: 100px;
                 max-height: ${D[`container-height`]};
                 overflow-y: ${D.isShowScrollbar?`auto`:`visible`};
         \}
