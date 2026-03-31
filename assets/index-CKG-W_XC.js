@@ -282,7 +282,7 @@ Error generating stack: `+e.message+`
                 padding-left: 0.5em; 
                 border-radius: 20px;
                 width: ${Math.floor(parseFloat(D[`container-width`].replaceAll(`px`,``))*.78)}px;
-                height: 22px;
+                height: 21px;
             \}
             #workskin .ios-msg-foot .ios-typing-bar span \{
                 align-self: center;
